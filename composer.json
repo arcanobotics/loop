@@ -1,0 +1,26 @@
+{
+  "name": "ollieread/mmo-websockets",
+  "license": "proprietary",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Ollie Read",
+      "email": "me@ollieread.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "ext-ds": "*",
+    "cboden/ratchet": "^0.4.1",
+    "clue/redis-react": "^2.3",
+    "php-ds/php-ds": "^1.2"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ollieread\\MMO\\WS\\": "src/"
+    }
+  }
+}
