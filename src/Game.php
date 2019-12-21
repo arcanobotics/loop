@@ -1,6 +1,6 @@
 <?php
 
-namespace Ollieread\MMO\WS;
+namespace Arcanobotics\Loop;
 
 class Game
 {

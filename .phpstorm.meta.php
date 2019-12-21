@@ -2,7 +2,7 @@
 
 namespace PHPSTORM_META {
 
-    use Ollieread\MMO\WS\Contracts\ComponentContainer;
+    use Arcanobotics\Loop\Contracts\ComponentContainer;
 
     override(ComponentContainer::as(0), map(['' => '@|Sequence<@>|null']));
 }

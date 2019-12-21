@@ -2,7 +2,7 @@
 <?php
 declare(strict_types=1);
 
-use Ollieread\MMO\WS\Game;
+use Arcanobotics\Loop\Game;
 use Ratchet\Http\HttpServer;
 use Ratchet\Server\IoServer;
 use Ratchet\WebSocket\WsServer;
